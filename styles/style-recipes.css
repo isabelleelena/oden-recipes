@@ -1,18 +1,104 @@
-* {
-    background-color: #fbd4f3;
+body {
+    background-color: rgb(208, 255, 174);
 }
 
-div {
-    color: rgb(185, 73, 110);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.link {
-    color:rgb(113, 44, 67);
-    text-decoration: none;
+.title {
+    display: block;
+    text-align: center;
+    font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
+    color: rgb(85, 135, 49);
+    background-color: rgb(170, 222, 133);
+    padding: 10px;
+    border: 5px solid rgb(129, 185, 89);
+    margin: 0 auto;
+    width: 400px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .image {
+    display: block;
     height: auto;
     width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
+
+div {
+    display: block;
+    background-color: rgb(170, 222, 133);
+    border: 5px solid rgb(129, 185, 89);
+    font-family: "Alegreya Sans SC", Arial, Helvetica, sans-serif;
+    color: rgb(85, 135, 49);
+    width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.description.block1,
+.ingredients.block2,
+.steps.block3 {
+    display: block;
+    text-align: center;
+    background-color: rgb(208, 255, 174);
+    padding: 15px;
+    margin: auto;
+}
+
+.description.block1 {
+    width: 150px;
+}
+
+.ingredients.block2 {
+    width: 140px;
+}
+
+.steps.block3 {
+    width: 100px;
+}
+
+.par,
+.credit {
+    display: inline-block;
+
+}
+
+.par.lentil-bolo {
+    width: 300px;
+    margin-left: 50px;
+}
+
+.credit.lentil-bolo {
+    width: 150px;
+    margin-right: 50px;
+    text-align: right;
+}
+
+.par.veg-soup {
+    width: 480px;
+}
+
+.credit.veg-soup {
+    width: 70px;
+    text-align: right;
+}
+
+.par.curry {
+    width: 480px;
+}
+
+.credit.curry {
+    width:70px;
+    text-align: right;
+}
+
+.link {
+    color: rgb(56, 105, 21);
+    text-decoration: none;
+}
+
+
+
